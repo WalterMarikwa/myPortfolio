@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Alata|Rock+Salt|Oswald&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero h2 {
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* Border styles */
+  border: 3px solid white;
+  border-radius: 20px;
+
+  /* Background styles */
+  background-color: rgba(226, 100, 17, 0.918);
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: white;
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://bit.ly/34g13lr");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: #212529;
+  color: white;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin-top: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.intro-header {
+  margin-top: 16px;
+  border-bottom: 1px solid white;
+}
+
+.intro_paragraph {
+  margin: 10px;
+  text-align: center;
+}
+
+.skils_header {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skills {
+  text-align: center;
+  border: 16px solid orangered;
+  background-color: rgba(56, 56, 61, 0.918);
+}
+
+.skills_icons {
+  font-size: 60px;
+  padding: 16px;
+}
+
+.skills_icons i {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .skills {
+    text-align: center;
+    width: 100%;
+  }
+  .skills_icons {
+    font-size: 60px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro_paragraph {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero h2 {
+        font-size: 26px;
+    }
+}

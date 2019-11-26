@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Alata|Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata|Rock+Salt|Oswald&display=swap');
 
 .navbar-brand {
     color: orangered;
     font-family: 'Rock Salt', cursive;
     font-size: 1.5rem;
     font-weight: bolder;
+}
+
+.nav-item i {
+    color: white;
+    font-size: 20px;
+}
+
+.letter {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 5px;
 }
 
