@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Number Guesser",
+        "img": "prodimages/game.png",
+        "Skill": "React.Js",
+        "btn": "https://github.com/WalterMarikwa/GuessingGame"
+    },
+    {
+        "id": 2,
+        "name": "City Gallery",
+        "img": "prodimages/city.png",
+        "Skill": "CSS Grid, Flexbox",
+        "btn": "https://github.com/WalterMarikwa/cityGallery"
+    },
+    {
+        "id": 3,
+        "name": "LifeSports App",
+        "img": "prodimages/life.png",
+        "Skill": "MongoDB",
+        "btn": "https://github.com/WalterMarikwa/lifeSports"
+    },
+    {
+        "id": 4,
+        "name": "Ecommerce WebSite",
+        "img": "prodimages/ecom.png",
+        "Skill": "Web Accessibiliy",
+        "btn": "https://github.com/WalterMarikwa/mernEcommerce-"
+    },
+    {
+        "id": 5,
+        "name": "Newspaper Article",
+        "img": "prodimages/",
+        "Skill": "Semantic HTML",
+        "btn": "https://github.com/WalterMarikwa/csharp_ecom" 
+    },
+    {
+        "id": 6,
+        "name": "Ecommerce Website",
+        "img": "prodimages/ecom.png",
+        "Skill": "Test Driven Development",
+        "btn": "https://github.com/WalterMarikwa/ecommerce-website"
+    },
+    {
+        "id": 7,
+        "name": "Admin Server",
+        "img": "prodimages/admin.png",
+        "Skill": "C#, .Net",
+        "btn": "https://github.com/WalterMarikwa/csharp_ecom"
+    },
+    {
+        "id": 8,
+        "name": "Coming Soon",
+        "img": "prodimages/",
+        "Skill": "C#",
+        "btn": "https://github.com/WalterMarikwa/lifeSports"
+    }
+]

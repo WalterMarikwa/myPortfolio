@@ -105,7 +105,7 @@ body {
 .skills {
   text-align: center;
   border: 16px solid orangered;
-  background-color: rgba(56, 56, 61, 0.918);
+  background-color: #212529;
 }
 
 .skills_icons {

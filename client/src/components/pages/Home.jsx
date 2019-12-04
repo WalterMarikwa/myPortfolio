@@ -34,7 +34,7 @@ function Home() {
 
           <i class="devicon-nodejs-plain-wordmark colored"></i>
 
-          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-dot-net-plain-wordmark colored"></i>
 
           <i class="devicon-mongodb-plain-wordmark colored"></i>
 
@@ -52,7 +52,7 @@ function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg">
-            <img className="img" src={require("../../images/walter.jpg")} />
+            <img className="img" src={require("../../images/walter.jpg")} alt="walter"/>
             <ul></ul>
           </div>
           <div className="col-lg">
