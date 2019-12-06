@@ -1,12 +1,37 @@
 import React from "react";
 import "../styles/Contact.css";
 
-function Contact() {
-  return (
-    <div className="body_container">
+
+export default class Contact extends React.Component {
+state = {
+  name : null,
+  // email : null,
+  // phone : "",
+  // message : ""
+}
+
+handleSubmit = event => {
+  event.preventDefault()
+}
+
+handleInputChange = event => {
+  event.preventDefault()
+  // console.log(event.target.name)
+  // console.log(event.target.value)
+  this.setState({
+    [event.target.name]: event.target.value
+    
+  })
+}
+
+
+  render() {
+    const {name} = this.state
+    return (
+      <div className="body_container">
       <div className="contact-form">
         <div className="container">
-          <form id="contact" action="mailto:waltermarikwa02@gmail.com">
+          <form id="contact" method="post" action="/api/newContact" onSubmit={this.handleSubmit} >
             <h3>Contact Form</h3>
             <h4 style={{ color: "orangered" }}>Hey Lets Work Together!</h4>
             <fieldset>
@@ -15,7 +40,9 @@ function Contact() {
                 type="text"
                 tabIndex={1}
                 required
-                autofocus
+                autoFocus
+                value = {name}
+                onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -24,6 +51,8 @@ function Contact() {
                 type="email"
                 tabIndex={2}
                 required
+                // value = {email}
+                onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -32,6 +61,8 @@ function Contact() {
                 type="tel"
                 tabIndex={3}
                 required
+                // value = {phone}
+                // onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -39,7 +70,8 @@ function Contact() {
                 placeholder="Type your message here...."
                 tabIndex={5}
                 required
-                defaultValue={""}
+                // value = {message}
+                // onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -48,6 +80,7 @@ function Contact() {
                 type="submit"
                 id="contact-submit"
                 data-submit="...Sending"
+                onClick={this.handleSubmit}
               >
                 Submit
             </button>
@@ -56,9 +89,6 @@ function Contact() {
         </div>
       </div>
     </div>
-  );
+    )
+  }
 }
-
-export default Contact;
-
-

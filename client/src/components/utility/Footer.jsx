@@ -9,9 +9,9 @@ function Footer() {
       </h3>
       <div className="footer_social">
         <ul>
-          <li><i class="fab fa-twitter"></i></li>
-          <li><i class="fab fa-github"></i></li>
-          <li><i class="fab fa-linkedin"></i></li>
+          <li><i className="fab fa-twitter"></i></li>
+          <li><i className="fab fa-github"></i></li>
+          <li><i className="fab fa-linkedin"></i></li>
         </ul>
       </div>
       <div className="Updated text-center"><h6>Last Updated December 2019.</h6></div>
