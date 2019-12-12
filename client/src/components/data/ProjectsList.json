@@ -29,10 +29,10 @@
     },
     {
         "id": 5,
-        "name": "Newspaper Article",
-        "img": "prodimages/",
+        "name": "Construction Co",
+        "img": "prodimages/construction.png",
         "Skill": "Semantic HTML",
-        "btn": "https://github.com/WalterMarikwa/csharp_ecom" 
+        "btn": "https://github.com/WalterMarikwa/ConstructionCompany" 
     },
     {
         "id": 6,
@@ -51,8 +51,8 @@
     {
         "id": 8,
         "name": "Coming Soon",
-        "img": "prodimages/",
+        "img": "prodimages/coming.jpg",
         "Skill": "C#",
-        "btn": "https://github.com/WalterMarikwa/lifeSports"
+        "btn": "https://github.com/WalterMarikwa"
     }
 ]

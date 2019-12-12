@@ -1,13 +1,12 @@
 import React from "react";
 import "../styles/Contact.css";
 
-
 export default class Contact extends React.Component {
 state = {
   name : null,
-  // email : null,
-  // phone : "",
-  // message : ""
+  email : null,
+  phone : "",
+  message : ""
 }
 
 handleSubmit = event => {
@@ -16,14 +15,13 @@ handleSubmit = event => {
 
 handleInputChange = event => {
   event.preventDefault()
-  // console.log(event.target.name)
-  // console.log(event.target.value)
+  console.log(event.target.name)
+  console.log(event.target.value)
   this.setState({
     [event.target.name]: event.target.value
-    
+
   })
 }
-
 
   render() {
     const {name} = this.state
@@ -51,8 +49,6 @@ handleInputChange = event => {
                 type="email"
                 tabIndex={2}
                 required
-                // value = {email}
-                onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -61,8 +57,6 @@ handleInputChange = event => {
                 type="tel"
                 tabIndex={3}
                 required
-                // value = {phone}
-                // onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>
@@ -70,8 +64,6 @@ handleInputChange = event => {
                 placeholder="Type your message here...."
                 tabIndex={5}
                 required
-                // value = {message}
-                // onChange={this.handleInputChange}
               />
             </fieldset>
             <fieldset>

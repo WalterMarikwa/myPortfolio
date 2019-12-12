@@ -12,13 +12,13 @@ function Nav() {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto">
                         <li className="letter">
-                            <a className="nav-link" href="/"><span style={{color: 'white'}}>Home</span></a>
+                            <a className="nav-link" href="/"><span style={{color: 'white'}}>HOME</span></a>
                         </li>
                         <li className="letter">
-                            <a className="nav-link" href="/projects"><span style={{color: 'white'}}>Projects</span></a>
+                            <a className="nav-link" href="/projects"><span style={{color: 'white'}}>PROJECTS</span></a>
                         </li>
                         <li className="letter">
-                            <a className="nav-link" href="/contact"><span style={{color: 'white'}}>Contact Me</span></a>
+                            <a className="nav-link" href="/contact"><span style={{color: 'white'}}>CONTACT ME</span></a>
                         </li>
                     </ul>
                     <span className="navbar-text">
