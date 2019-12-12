@@ -8,7 +8,7 @@ function Home() {
         <div className="hero-inner">
           <h1>Walter Ishevanesu Marikwa</h1>
           <h2>Jr Software Developer</h2>
-          <a href="/contact" className="btn">
+          <a href="https://waltermarikwa.netlify.com/contact" className="btn">
             Know More...
           </a>
         </div>

@@ -15,10 +15,10 @@ function Nav() {
                             <a className="nav-link" href="/"><span style={{color: 'white'}}>HOME</span></a>
                         </li>
                         <li className="letter">
-                            <a className="nav-link" href="/projects"><span style={{color: 'white'}}>PROJECTS</span></a>
+                            <a className="nav-link" href="https://waltermarikwa.netlify.com/projects"><span style={{color: 'white'}}>PROJECTS</span></a>
                         </li>
                         <li className="letter">
-                            <a className="nav-link" href="/contact"><span style={{color: 'white'}}>CONTACT ME</span></a>
+                            <a className="nav-link" href="https://waltermarikwa.netlify.com/contact"><span style={{color: 'white'}}>CONTACT ME</span></a>
                         </li>
                     </ul>
                     <span className="navbar-text">
