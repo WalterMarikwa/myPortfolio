@@ -24,7 +24,7 @@
         "id": 4,
         "name": "Ecommerce WebSite",
         "img": "prodimages/ecom.png",
-        "Skill": "Web Accessibiliy",
+        "Skill": "jwt authentication MERN",
         "btn": "https://github.com/WalterMarikwa/mernEcommerce-"
     },
     {
@@ -36,20 +36,41 @@
     },
     {
         "id": 6,
+        "name": "TicTacToe Game",
+        "img": "prodimages/tictac.png",
+        "Skill": "React.Js",
+        "btn": "https://github.com/WalterMarikwa/tictactoe" 
+    },
+    {
+        "id": 7,
         "name": "Ecommerce Website",
         "img": "prodimages/ecom.png",
         "Skill": "Test Driven Development",
         "btn": "https://github.com/WalterMarikwa/ecommerce-website"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Admin Server",
         "img": "prodimages/admin.png",
         "Skill": "C#, .Net",
         "btn": "https://github.com/WalterMarikwa/csharp_ecom"
     },
     {
-        "id": 8,
+        "id": 9,
+        "name": "Budget App",
+        "img": "prodimages/budget.png",
+        "Skill": "Vanilla Javascript",
+        "btn": "https://github.com/WalterMarikwa/budget-App"
+    },
+    {
+        "id": 10,
+        "name": "Spongbob and friends",
+        "img": "prodimages/friends.png",
+        "Skill": "React.Js",
+        "btn": "https://github.com/WalterMarikwa/friends"
+    },
+    {
+        "id": 11,
         "name": "Coming Soon",
         "img": "prodimages/coming.jpg",
         "Skill": "C#",

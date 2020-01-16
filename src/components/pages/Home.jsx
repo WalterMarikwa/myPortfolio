@@ -61,11 +61,11 @@ function Home() {
             </div>
             <p className="intro_paragraph">
               Hello Good Humans, I'm a driven professional with a broad of
-              technical skill set. I'm passionate about learning new
+              technical skill sets. I'm passionate about learning new
               technologies, bringing ideas to life, and working in teams to
               build cool applications for users. I am open minded and always
-              ready to learn new things whether it's tech related or just life
-              in general.
+              ready to learn new things by challenging myself whether it's tech 
+              related or just life in general. 
             </p>
           </div>
         </div>

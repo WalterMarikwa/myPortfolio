@@ -14,8 +14,8 @@ function Footer() {
           <li><i className="fab fa-linkedin"></i></li>
         </ul>
       </div>
-      <div className="Updated text-center"><h6>Last Updated December 2019.</h6></div>
-      <div className="footer-copyright text-center py-3">© 2019 Copyright: Walter Marikwa. All Rights Reserved</div>
+      <div className="Updated text-center"><h6>Last Updated January 2020.</h6></div>
+      <div className="footer-copyright text-center py-3">© 2020 Copyright: Walter Marikwa. All Rights Reserved</div>
     </div>
   )
 }
