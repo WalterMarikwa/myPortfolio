@@ -52,7 +52,7 @@ function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg">
-            <img className="img" src={require("../../images/walter.jpg")} alt="walter"/>
+            <img className="img" src={require("../../images/walterv2.jpg")} alt="walter"/>
             <ul></ul>
           </div>
           <div className="col-lg">
